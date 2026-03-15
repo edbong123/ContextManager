@@ -1,3 +1,4 @@
+---
 # Company
 
 ## What is this company?
@@ -62,3 +63,8 @@ Restacked.ai is a project and domain name. Not yet a registered entity.
 - **Current runway:** 8 months at current burn rate
 - **Next raise:** Targeting seed round in Q3 2026 after MVP validation
 - **Hiring plan:** 1-2 engineers post-seed, focus on senior full-stack profiles
+
+## Company Address
+FWeg 1, Austria
+fweg 5, Austria
+---
