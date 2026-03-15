@@ -1,4 +1,4 @@
-# AI Workflowes
+# AI Workflows
 
 ## Prototype / production rule
 Prototype code is never deployed to production. It is rewritten.
