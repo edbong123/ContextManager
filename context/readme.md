@@ -1,4 +1,4 @@
-# Context Files â Restacked.ai / CXS
+# Context Files Ã¢ÂÂ Restacked.ai / CXS
 
 This folder contains the AI context foundation for the CXS project.
 
@@ -187,3 +187,12 @@ anything unresolved
 - Leonardo never makes backend or database architecture decisions.
 
 Flag and stop if a session requires one.
+
+## Contributing
+
+1. Fork the repository and create a feature branch: `git checkout -b feat/your-feature`
+2. Make your changes following the existing code style
+3. Write tests for new functionality
+4. Submit a pull request with a clear description
+
+All PRs require at least one review before merging.
