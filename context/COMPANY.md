@@ -1,4 +1,3 @@
----
 # Company
 
 ## What is this company?
@@ -20,9 +19,13 @@ and small development teams building production B2B platforms for SMB clients.
 ## Team
 
 | Name | Role | Responsibilities |
+
 |---|---|---|
+
 | Leonardo | Technical Lead | Architecture decisions, core infrastructure, code quality |
-| Tim | Product & Strategy | Customer interviews, roadmap prioritization, business development |
+
+| Tim | Product &amp; Strategy | Customer interviews, roadmap prioritization, business development |
+
 | Egor | Full-Stack Engineer | Feature development, UI/UX implementation, DevOps |
 
 ## What stage are we at?
@@ -57,7 +60,7 @@ enforced at the gateway layer.
 
 Restacked.ai is a project and domain name. Not yet a registered entity.
 
-## Funding & Runway
+## Funding &amp; Runway
 
 - **Status:** Bootstrapped / Pre-seed
 - **Current runway:** 8 months at current burn rate
@@ -65,6 +68,7 @@ Restacked.ai is a project and domain name. Not yet a registered entity.
 - **Hiring plan:** 1-2 engineers post-seed, focus on senior full-stack profiles
 
 ## Company Address
+
 FWeg 1, Austria
+
 fweg 5, Austria
----
