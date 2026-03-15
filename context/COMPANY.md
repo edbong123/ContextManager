@@ -16,13 +16,21 @@ and small development teams building production B2B platforms for SMB clients.
 
 ## Who is the team?
 
-- Leonardo: vibe coder
-- Tim: consultant and product manager
-- Egor: full stack dev
+## Team
+
+| Name | Role | Responsibilities |
+|---|---|---|
+| Leonardo | Technical Lead | Architecture decisions, core infrastructure, code quality |
+| Tim | Product & Strategy | Customer interviews, roadmap prioritization, business development |
+| Egor | Full-Stack Engineer | Feature development, UI/UX implementation, DevOps |
 
 ## What stage are we at?
 
-Pre-MVP. Prototyping CXS as the first buildable component.
+**Stage:** Pre-MVP (Q1 2026)
+
+**Current milestone:** Prototyping CXS (Context Exchange Service) as the first buildable component. Target: working prototype by end of March.
+
+**Next milestone:** Internal dogfooding with 3 pilot teams by mid-April.
 
 Context framework and methodology fully defined. No production code yet.
 
@@ -47,3 +55,10 @@ enforced at the gateway layer.
 ## Company status
 
 Restacked.ai is a project and domain name. Not yet a registered entity.
+
+## Funding & Runway
+
+- **Status:** Bootstrapped / Pre-seed
+- **Current runway:** 8 months at current burn rate
+- **Next raise:** Targeting seed round in Q3 2026 after MVP validation
+- **Hiring plan:** 1-2 engineers post-seed, focus on senior full-stack profiles
