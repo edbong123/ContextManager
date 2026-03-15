@@ -17,9 +17,13 @@ and small development teams building production B2B platforms for SMB clients.
 
 - 
 
+-
+
 - Tim: consultant and product manager
 
 - 
+
+-
 
 - Egor: full stack dev
 
@@ -36,9 +40,13 @@ Three personas:
 
 - 
 
+-
+
 - Persona 2: Dev team CEO scaling a software delivery agency
 
 - 
+
+-
 
 - Persona 3: SMB platform owner who depends on the delivered platform
 
