@@ -1,3 +1,5 @@
+---
+
 # Company
 
 ## What is this company?
@@ -58,6 +60,8 @@ enforced at the gateway layer.
 
 ## Company status
 
+**Legal Name:** Inboundlabs
+
 Restacked.ai is a project and domain name. Not yet a registered entity.
 
 ## Funding &amp; Runway
@@ -72,3 +76,5 @@ Restacked.ai is a project and domain name. Not yet a registered entity.
 FWeg 1, Austria
 
 fweg 5, Austria
+
+---
