@@ -1,4 +1,4 @@
-# Company. 
+# Company
 
 ## What is this company?
 Restacked.ai is a context orchestration platform for teams building with AI.
