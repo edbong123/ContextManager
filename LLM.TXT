@@ -1,0 +1,67 @@
+```markdown
+# Restacked Context Repository
+
+## What this repo is
+[TIER: Company / Domain / Project] context for [name].
+Part of the Restacked context orchestration system.
+All context files live in /context/.
+
+## Personas and what they need
+
+| Persona | Load these files |
+|---|---|
+| Consultant | COMPANY.md, TOOLCHAIN.md, DECISIONS.md, OPEN-QUESTIONS.md |
+| Designer | COMPANY.md, VISUAL-IDENTITY-EXTERNAL.md, VISUAL-IDENTITY-INTERNAL.md, DESIGN-SYSTEM.md |
+| Content Writer | COMPANY.md, GLOSSARY.md, VISUAL-IDENTITY-EXTERNAL.md, CUSTOMER.md |
+| Vibe Coder | ROLES.md, SCHEMA.md, TYPES.md, API.md, GLOSSARY.md, CONVENTIONS.md, AI-WORKFLOW.md |
+| Full Stack Developer | SCHEMA.md, TYPES.md, API.md, CODEBASE-MAP.md, CONVENTIONS.md, DECISIONS.md, ROLES.md |
+| Domain Expert | GLOSSARY.md, REGULATIONS.md, OPERATIONS.md, ROLES.md |
+
+## Load order for any session
+1. COMPANY.md - always first
+2. AI-WORKFLOW.md - rules that govern how this team uses AI
+3. DECISIONS.md - never contradict anything here
+4. Role-specific files per persona table above
+
+## Files in /context/
+
+### Always load
+- COMPANY.md - who we are, what we build, team
+- AI-WORKFLOW.md - prototype/production rules, workflow constraints
+- DECISIONS.md - architectural decisions, do not contradict
+
+### Load for code tasks
+- SCHEMA.md - data model, auto-generated
+- TYPES.md - TypeScript interfaces, auto-generated
+- API.md - function signatures, auto-generated
+- CODEBASE-MAP.md - what exists and where, auto-generated
+- CONVENTIONS.md - detected code patterns, auto-generated
+- ROLES.md - user roles and permissions
+- STANDARDS.md - coding conventions
+- TOOLCHAIN.md - stack decisions and rationale
+
+### Load for design and content tasks
+- VISUAL-IDENTITY-EXTERNAL.md - customer-facing brand
+- VISUAL-IDENTITY-INTERNAL.md - internal tool conventions
+- DESIGN-SYSTEM.md - component library and tokens
+
+### Load for domain tasks
+- GLOSSARY.md - exact terminology, use these terms only
+- REGULATIONS.md - compliance constraints
+- OPERATIONS.md - how this domain actually works
+
+### Load for planning and spec tasks
+- CUSTOMER.md - customer profile, pain points, priorities
+- OPEN-QUESTIONS.md - unresolved decisions, flag if your output touches these
+- ACCESS.md - who has access to what
+
+## Rules that always apply
+- Prototype code is never deployed to production. Always rewritten.
+- No direct backend calls in UI. Abstraction layer only.
+- Never contradict DECISIONS.md. Flag conflicts explicitly.
+- If output touches an item in OPEN-QUESTIONS.md, stop and flag it.
+- Use exact terms from GLOSSARY.md. No synonyms.
+- Role checks happen at the data layer, not just the UI.
+- Backend architecture decisions happen in the backend project only.
+- All knowledge produced in a session must be translated into context files before the next session.
+```
